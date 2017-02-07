@@ -21,8 +21,8 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         
-        logFileTextField.stringValue = "/Users/albertbori/Desktop/Crash.log"
-        symbolsFileTextField.stringValue = "/Users/albertbori/Library/Developer/Xcode/Archives/2017-01-04/Rushline QA 1-4-17, 2.26 PM.xcarchive"
+        logFileTextField.stringValue = "~/Desktop/Crash.log"
+        symbolsFileTextField.stringValue = "~/Library/Developer/Xcode/Archives/"
         validatePaths()
     }
 

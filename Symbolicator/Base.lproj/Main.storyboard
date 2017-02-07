@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
         <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
     </dependencies>
@@ -691,10 +691,10 @@
                                 <rect key="frame" x="8" y="8" width="968" height="766"/>
                                 <subviews>
                                     <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3qJ-fX-inE">
-                                        <rect key="frame" x="0.0" y="240" width="968" height="526"/>
+                                        <rect key="frame" x="0.0" y="744" width="968" height="22"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Evb-c6-ari">
-                                                <rect key="frame" x="-2" y="509" width="52" height="17"/>
+                                                <rect key="frame" x="-2" y="5" width="52" height="17"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Log File" id="cUf-ys-J6N">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -702,7 +702,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Pe-tW-TlI">
-                                                <rect key="frame" x="56" y="504" width="848" height="22"/>
+                                                <rect key="frame" x="56" y="0.0" width="848" height="22"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="2XP-cH-FAe">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -710,7 +710,7 @@
                                                 </textFieldCell>
                                             </textField>
                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3Ln-kW-sR9">
-                                                <rect key="frame" x="906" y="498" width="68" height="32"/>
+                                                <rect key="frame" x="906" y="-6" width="68" height="32"/>
                                                 <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSFolder" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ls5-O4-Wbm">
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system"/>
@@ -732,7 +732,7 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KDe-CH-zn6">
-                                        <rect key="frame" x="0.0" y="210" width="968" height="22"/>
+                                        <rect key="frame" x="0.0" y="714" width="968" height="22"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6JV-Ur-SSW">
                                                 <rect key="frame" x="-2" y="5" width="81" height="17"/>
@@ -773,7 +773,7 @@
                                         </customSpacing>
                                     </stackView>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pXh-GW-IHX">
-                                        <rect key="frame" x="-6" y="174" width="115" height="32"/>
+                                        <rect key="frame" x="-6" y="678" width="115" height="32"/>
                                         <buttonCell key="cell" type="push" title="Symbolicate" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eQv-rA-RfU">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -783,17 +783,17 @@
                                         </connections>
                                     </button>
                                     <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Svq-42-ADY">
-                                        <rect key="frame" x="0.0" y="0.0" width="463" height="173"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="968" height="677"/>
                                         <clipView key="contentView" id="EsM-k9-zez">
-                                            <rect key="frame" x="1" y="1" width="461" height="171"/>
+                                            <rect key="frame" x="1" y="1" width="966" height="675"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <textView editable="NO" importsGraphics="NO" richText="NO" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Kcj-id-lvm">
-                                                    <rect key="frame" x="0.0" y="0.0" width="461" height="171"/>
+                                                <textView importsGraphics="NO" richText="NO" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Kcj-id-lvm">
+                                                    <rect key="frame" x="0.0" y="0.0" width="966" height="675"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <size key="minSize" width="461" height="171"/>
-                                                    <size key="maxSize" width="469" height="10000000"/>
+                                                    <size key="minSize" width="966" height="675"/>
+                                                    <size key="maxSize" width="966" height="10000000"/>
                                                     <attributedString key="textStorage">
                                                         <fragment content=" ">
                                                             <attributes>
@@ -812,7 +812,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="5j3-Ic-qJJ">
-                                            <rect key="frame" x="446" y="1" width="16" height="171"/>
+                                            <rect key="frame" x="951" y="1" width="16" height="675"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                     </scrollView>
